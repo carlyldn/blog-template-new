@@ -1,0 +1,131 @@
+---
+layout: default
+title: Testing
+seo:
+  title:
+  meta-description:
+  meta-keywords:
+  featured-image_path:
+  hide-from-google: false
+banner_image: >-
+ https://picsum.photos/id/684/600/400  
+description_html: Text content block
+video: 
+  video_type: youtube
+  youtube_id: uIsg5x19Xu8
+  vimeo_id: 677973953
+  video_poster: 
+  embedded: 
+  - video_path: /path/to/video.mp4
+    file_type: mp4
+  - video_path: /path/to/video.webm
+    file_type: webm
+gallery:
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400  
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400  
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400  
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400  
+ - column_width: 1
+   aspect_ratio: square
+   gallery_image: >-
+    https://picsum.photos/id/684/600/400                    
+---
+
+<!-- Image banner -->
+    <section style="background-image: url('{{page.banner_image}}')" class="bg-cover bg-center h-screen flex items-center justify-center text-white">
+        <h2>Hello I'm an image bannerrrrrrrr</h2>
+    </section>
+
+
+
+<!-- Text content block -->
+
+<section>
+    {{page.description_html}}
+</section>
+
+<!-- Youtube embed -->
+
+<section class="min-h-screen">
+  {% if page.video.video_type == 'youtube' %}
+    <div class="plyr__video-embed relative" id="player">
+        <iframe
+        src="https://www.youtube.com/embed/{{page.video.youtube_id}}?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+        ></iframe>
+    </div>
+    {% endif %}
+
+<!-- Vimeo embed -->
+{% if page.video.video_type == 'vimeo' %}
+    <div class="plyr__video-embed relative" id="player">
+        <iframe
+          src="https://player.vimeo.com/video/{{page.video.vimeo_id}}?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+          allowfullscreen
+          allowtransparency
+          allow="autoplay"
+        ></iframe>
+      </div>
+{% endif %}
+
+<!-- HTML5 embed -->
+
+{% if page.video.video_type == 'embedded' %}
+<video id="player" playsinline controls data-poster="{{page.video.poster}}">
+  {% for item in page.video.embedded %}
+
+    <source src="{{item.video_path}}" type="video/{{item.file_type}}" />
+
+  {% endfor %}
+    <!-- Captions are optional -->
+    <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
+  </video>
+  {% endif %}
+</section>
+
+
+  <!-- Gallery block -->
+
+  <div class="grid grid-cols-3 gap-2">
+		{% for item in page.gallery %}
+		    <div class="col-span-{{item.column_width}}">
+		      <div class="bg-center bg-cover {{item.aspect_ratio}}" style="background-image: url('{{item.gallery_image}}')"></div>
+		    </div>
+
+		{% endfor %}
+</div>
+
+
+<!-- CTA -->
+
+<section class="h-screen flex items-center justify-start text-center">
+    <div>
+      <h3 class="editable">Free month if you sign up this month</h3>
+      <p class="editable">Join now for a big discount</p>
+      <a href="#" class="editable">Subscribe now</a>
+    </div>
+</section>
+
+
+<!-- Slider block -->
+
+
+<!-- Newsletter sign up -->

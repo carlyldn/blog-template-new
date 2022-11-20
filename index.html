@@ -1,5 +1,24 @@
 ---
 layout: default
 title: Homepage
+seo:
+  title:
+  meta-description:
+  meta-keywords:
+  featured-image_path:
+  hide-from-google: false
 ---
 <h1 class="text-4xl font-bold text-slate-900">Welcome to your homepage!</h1>
+
+
+<section class="grid md:grid-cols-3 gap-4">
+    {% for post in site.posts %}
+    <div>
+        <a href="{{post.url}}">
+            <img src="{{post.image}}">
+            <h4>{{post.category}}</h4>
+            <p>{{post.author}}</p>
+        </a>
+    </div>
+    {% endfor %}
+</section>

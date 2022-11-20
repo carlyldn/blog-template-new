@@ -7,7 +7,13 @@ module.exports = {
     './*.{html,js,md}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio: {
+        'portrait': '4/3',
+        'landscape': '16/9',
+        'square': '1/1',
+      },
+    },
   },
   plugins: [],
 }
