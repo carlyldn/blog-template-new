@@ -50,3 +50,21 @@ _array_structures:
      embedded:
        - video_path:
          file_type:
+
+_select_data:
+ video_types:
+  - youtube
+  - vimeo
+  - embedded
+ section_styles:
+  - p-5: Padding Standard
+  - p-6: Padding Medium
+  - p-10: Padding Large
+  - m-5: Margin Standard
+  - m-6: Margin Medium
+  - m-10: Margin Large
+ inner_styles:
+  -  
+
+  
+

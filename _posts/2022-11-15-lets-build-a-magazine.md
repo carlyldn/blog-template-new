@@ -26,13 +26,13 @@ page_blocks:
    button_text: Home page
 
  - _id: gallery
-    title: Gallery
-    gallery_columns: 3
-    gallery:
+   title: Gallery
+   gallery_columns: 3
+   gallery:
     - column_width: 1
       gallery_image: >-
        https://picsum.photos/id/684/600/400
-    aspect_ratio: square  
+      aspect_ratio: square  
 
  - _id: video
    title: Video
