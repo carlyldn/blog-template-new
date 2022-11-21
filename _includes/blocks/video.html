@@ -1,6 +1,6 @@
 <!-- Youtube embed -->
 
-<section class="min-h-screen">
+<section class="{{block.section_styles | join: ' ' }} min-h-screen">
     {% if block.video_type == 'youtube' %}
       <div class="plyr__video-embed relative" id="player{{ forloop.index }}">
           <iframe

@@ -6,6 +6,8 @@ _array_structures:
     value:
      _id: text-content
      title: Text Content
+     section-styles: 
+     inner-styles:
      description_html:
 
   - label: Image Banner
@@ -13,6 +15,8 @@ _array_structures:
     value:
      _id: image-banner
      title: Image Banner
+     section-styles: 
+     inner-styles:     
      banner_image: 
      heading:
      subheading:
@@ -22,6 +26,8 @@ _array_structures:
     value:
      _id: cta
      title: Call to Action
+     section-styles: 
+     inner-styles:     
      heading: This is a heading
      paragraph: This is a paragraph
      button_url: /
@@ -32,6 +38,8 @@ _array_structures:
     value:
      _id: gallery
      title: Gallery
+     section-styles: 
+     inner-styles:     
      gallery_columns: 
      gallery:
       - column_width: 
@@ -43,6 +51,8 @@ _array_structures:
     value:
      _id: video
      title: Video
+     section-styles: 
+     inner-styles:     
      video_poster:
      video_type:
      youtube_id:
