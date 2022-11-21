@@ -10,17 +10,16 @@ seo:
 banner_image: >-
  https://picsum.photos/id/684/600/400  
 description_html: Text content block
-video: 
-  video_type: youtube
-  youtube_id: uIsg5x19Xu8
-  vimeo_id: 677973953
-  video_poster: 
-  embedded: 
+video_type: youtube
+youtube_id: uIsg5x19Xu8
+vimeo_id: 677973953
+video_poster: 
+embedded: 
   - video_path: /path/to/video.mp4
     file_type: mp4
   - video_path: /path/to/video.webm
     file_type: webm
-gallery_columns: 3    
+gallery_columns: 3
 gallery:
  - column_width: 1
    aspect_ratio: square
@@ -66,10 +65,10 @@ gallery:
 <!-- Youtube embed -->
 
 <section class="min-h-screen">
-  {% if page.video.video_type == 'youtube' %}
+  {% if page.video_type == 'youtube' %}
     <div class="plyr__video-embed relative" id="player">
         <iframe
-        src="https://www.youtube.com/embed/{{page.video.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+        src="https://www.youtube.com/embed/{{page.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
         allowfullscreen
         allowtransparency
         allow="autoplay"
@@ -77,10 +76,10 @@ gallery:
     </div>
 
 <!-- Vimeo embed -->
-{% elsif page.video.video_type == 'vimeo' %}
+{% elsif page.video_type == 'vimeo' %}
     <div class="plyr__video-embed relative" id="player">
         <iframe
-          src="https://player.vimeo.com/video/{{page.video.vimeo_id}}?muted=1&amp;autoplay=1&amp;loop=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+          src="https://player.vimeo.com/video/{{page.vimeo_id}}?muted=1&amp;autoplay=1&amp;loop=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
           allowfullscreen
           allowtransparency
           allow="autoplay"
@@ -89,7 +88,7 @@ gallery:
 
 <!-- HTML5 embed -->
 
-{% elsif page.video.video_type == 'embedded' %}
+{% elsif page.video_type == 'embedded' %}
 <video id="player" playsinline controls autoplay muted autobuffer="true" preload="auto" loop data-poster="{{page.video.poster}}">
   {% for item in page.video.embedded %}
 

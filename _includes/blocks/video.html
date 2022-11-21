@@ -4,7 +4,7 @@
     {% if block.video_type == 'youtube' %}
       <div class="plyr__video-embed relative" id="player">
           <iframe
-          src="https://www.youtube.com/embed/{{block.video.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+          src="https://www.youtube.com/embed/{{block.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
           allowfullscreen
           allowtransparency
           allow="autoplay"
@@ -15,7 +15,7 @@
   {% elsif block.video_type == 'vimeo' %}
       <div class="plyr__video-embed relative" id="player">
           <iframe
-            src="https://player.vimeo.com/video/{{block.video.vimeo_id}}?muted=1&amp;autoplay=1&amp;loop=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+            src="https://player.vimeo.com/video/{{block.vimeo_id}}?muted=1&amp;autoplay=1&amp;loop=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
             allowfullscreen
             allowtransparency
             allow="autoplay"
