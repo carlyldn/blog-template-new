@@ -27,7 +27,7 @@ _select_data:
     max-w-screen-md: Capped Width Medium
     max-w-screen-lg: Capped Width Large
     max-w-screen-xl: Capped Width XL
-  image_alignment:
+ image_alignment:
     items-center: Align to Centre
     justify-center: Justify to Centre  
 
