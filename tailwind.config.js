@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       aspectRatio: {
-        'portrait': '4/3',
+        'portrait': '3/4',
         'landscape': '16/9',
         'square': '1/1',
       },

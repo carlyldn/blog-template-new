@@ -8,4 +8,4 @@ image: >-
  https://picsum.photos/id/684/600/400
 ---
 
-Let's build a magazinejsbskjvcjka
+Let's build a magazine
