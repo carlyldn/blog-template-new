@@ -1,30 +1,29 @@
-
 _select_data:
  video_types:
   - youtube
   - vimeo
   - embedded
  section_styles:
-  - p-5: Padding Standard
-  - p-6: Padding Medium
-  - p-10: Padding Large
-  - m-5: Margin Standard
-  - m-6: Margin Medium
-  - m-10: Margin Large
-  - bg-light: Light Background
-  - bg-dark: Dark Background
-  - bg-featured: Featured Background
-  - bg-white: White Background
+    p-5: Padding Standard
+    p-6: Padding Medium
+    p-10: Padding Large
+    m-5: Margin Standard
+    m-6: Margin Medium
+    m-10: Margin Large
+    bg-light: Light Background
+    bg-dark: Dark Background
+    bg-featured: Featured Background
+    bg-white: White Background
  inner_styles:
-  - p-5: Padding Standard
-  - p-6: Padding Medium
-  - p-10: Padding Large
-  - m-5: Margin Standard
-  - m-6: Margin Medium
-  - m-10: Margin Large
-  - max-w-screen-md: Capped Width Medium
-  - max-w-screen-lg: Capped Width Large
-  - max-w-screen-xl: Capped Width XL
+    p-5: Padding Standard
+    p-6: Padding Medium
+    p-10: Padding Large
+    m-5: Margin Standard
+    m-6: Margin Medium
+    m-10: Margin Large
+    max-w-screen-md: Capped Width Medium
+    max-w-screen-lg: Capped Width Large
+    max-w-screen-xl: Capped Width XL
   
 
 page_blocks: []
