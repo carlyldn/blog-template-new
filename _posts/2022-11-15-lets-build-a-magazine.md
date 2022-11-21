@@ -7,12 +7,32 @@ date: 16 June 2022
 image: >-
  https://picsum.photos/id/684/600/400
 page_blocks:
+ - _id: text-content
+   title: Text Content
+   description_html: This is your main body content
+    
+ - _id: image-banner
+   title: Image Banner
+   banner_image: >-
+    https://picsum.photos/id/684/600/400
+   heading: This is a heading
+   subheading: This is a subheading
+
  - _id: cta
    title: Call to Action
    heading: This is a heading
    paragraph: This is a paragraph
    button_url: /
    button_text: Home page
+
+ - _id: gallery
+    title: Gallery
+    gallery_columns: 3
+    gallery:
+    - column_width: 1
+      gallery_image: >-
+       https://picsum.photos/id/684/600/400
+    aspect_ratio: square  
 
  - _id: video
    title: Video
@@ -22,14 +42,7 @@ page_blocks:
    vimeo_id: 
    embedded:
     - video_path:
-      file_type:
-
- - _id: image-banner
-    title: Text Content
-    description_html:
-
-    
-      
+      file_type:      
 ---
 
 Let's build a magazine
