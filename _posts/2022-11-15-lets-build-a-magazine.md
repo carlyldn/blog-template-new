@@ -38,7 +38,7 @@ page_blocks:
   video_poster:
   video_type: youtube
   youtube_id: uIsg5x19Xu8
-  vimeo_id:
+  vimeo_id: 677973953
   embedded:
    -
     video_path:

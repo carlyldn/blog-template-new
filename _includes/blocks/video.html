@@ -4,7 +4,7 @@
     {% if block.video_type == 'youtube' %}
       <div class="plyr__video-embed relative" id="player{{ forloop.index }}">
           <iframe
-          src="https://www.youtube.com/embed/{{block.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+          src="https://www.youtube.com/embed/{{block.youtube_id}}?origin=https://plyr.io{{block.video_styles}}&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
           allowfullscreen
           allowtransparency
           allow="autoplay"
