@@ -35,8 +35,8 @@ _array_structures:
     value:
      _id: text-content
      title: Text Content
-     section_styles: 
-     inner_styles:
+     section_styles: []
+     inner_styles:  []
      description_html:
 
   - label: Image Banner
@@ -65,15 +65,15 @@ _array_structures:
   - label: Gallery
     icon: photo_camera
     value:
-     _id: gallery
-     title: Gallery
-     section_styles: 
-     inner_styles:     
-     gallery_columns: 
-     gallery:
-      - column_width: 
-        gallery_image:
-        aspect_ratio: 
+      _id: gallery
+      title: Gallery
+      section_styles: 
+      inner_styles:     
+      gallery_columns: 
+      gallery:
+        - column_width: 
+          gallery_image:
+          aspect_ratio: 
   
   - label: Video
     icon: play_circle
