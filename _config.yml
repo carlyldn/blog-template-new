@@ -1,65 +1,3 @@
-page_blocks: []
-_array_structures:
- page_blocks:
-  - label: Text Content
-    icon: description
-    value:
-     _id: text-content
-     title: Text Content
-     section-styles: 
-     inner-styles:
-     description_html:
-
-  - label: Image Banner
-    icon: photo_camera
-    value:
-     _id: image-banner
-     title: Image Banner
-     section-styles: 
-     inner-styles:     
-     banner_image: 
-     heading:
-     subheading:
-
-  - label: Call to Action
-    icon: article
-    value:
-     _id: cta
-     title: Call to Action
-     section-styles: 
-     inner-styles:     
-     heading: This is a heading
-     paragraph: This is a paragraph
-     button_url: /
-     button_text: Home page
-
-  - label: Gallery
-    icon: photo_camera
-    value:
-     _id: gallery
-     title: Gallery
-     section-styles: 
-     inner-styles:     
-     gallery_columns: 
-     gallery:
-      - column_width: 
-        gallery_image:
-        aspect_ratio: 
-  
-  - label: Video
-    icon: play_circle
-    value:
-     _id: video
-     title: Video
-     section-styles: 
-     inner-styles:     
-     video_poster:
-     video_type:
-     youtube_id:
-     vimeo_id:
-     embedded:
-       - video_path:
-         file_type:
 
 _select_data:
  video_types:
@@ -89,5 +27,65 @@ _select_data:
   - max-w-screen-xl: Capped Width XL
   
 
-  
+page_blocks: []
+_array_structures:
+ page_blocks:
+  - label: Text Content
+    icon: description
+    value:
+     _id: text-content
+     title: Text Content
+     section_styles: 
+     inner_styles:
+     description_html:
 
+  - label: Image Banner
+    icon: photo_camera
+    value:
+     _id: image-banner
+     title: Image Banner
+     section_styles: 
+     inner_styles:     
+     banner_image: 
+     heading:
+     subheading:
+
+  - label: Call to Action
+    icon: article
+    value:
+     _id: cta
+     title: Call to Action
+     section_styles: 
+     inner_styles:     
+     heading: This is a heading
+     paragraph: This is a paragraph
+     button_url: /
+     button_text: Home page
+
+  - label: Gallery
+    icon: photo_camera
+    value:
+     _id: gallery
+     title: Gallery
+     section_styles: 
+     inner_styles:     
+     gallery_columns: 
+     gallery:
+      - column_width: 
+        gallery_image:
+        aspect_ratio: 
+  
+  - label: Video
+    icon: play_circle
+    value:
+     _id: video
+     title: Video
+     section_styles: 
+     inner_styles:     
+     video_poster:
+     video_type:
+     youtube_id:
+     vimeo_id:
+     embedded:
+       - video_path:
+         file_type:
