@@ -7,4 +7,45 @@ _array_structures:
      _id: cta
      title: Call to Action
      heading: This is a heading
-     subtitle: This is a subtitle
+     paragraph: This is a paragraph
+     button_url: /
+     button_text: Home page
+  - label: Gallery
+    icon: photo_camera
+    value:
+     _id: gallery
+     title: Gallery
+     gallery_columns: 
+     gallery:
+      - column_width: 
+        gallery_image:
+        aspect_ratio: 
+  - label: Image Banner
+    icon: photo_camera
+    value:
+     _id: image-banner
+     title: Image Banner
+     banner_image: 
+     heading:
+     subheading:
+  - label: Text Content
+    icon: description
+    value:
+     _id: image-banner
+     title: Text Content
+     description_html:  
+  - label: Video
+    icon: play_circle
+    value:
+     _id: video
+     title: Video
+     video_poster:
+     video_type:
+     youtube_id:
+     vimeo_id:
+     embedded:
+       - video_path:
+         file_type:  
+      
+
+        
