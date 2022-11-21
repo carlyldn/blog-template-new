@@ -1,6 +1,22 @@
 page_blocks: []
 _array_structures:
  page_blocks:
+  - label: Text Content
+    icon: description
+    value:
+     _id: text-content
+     title: Text Content
+     description_html:
+
+  - label: Image Banner
+    icon: photo_camera
+    value:
+     _id: image-banner
+     title: Image Banner
+     banner_image: 
+     heading:
+     subheading:
+
   - label: Call to Action
     icon: article
     value:
@@ -10,6 +26,7 @@ _array_structures:
      paragraph: This is a paragraph
      button_url: /
      button_text: Home page
+
   - label: Gallery
     icon: photo_camera
     value:
@@ -20,20 +37,7 @@ _array_structures:
       - column_width: 
         gallery_image:
         aspect_ratio: 
-  - label: Image Banner
-    icon: photo_camera
-    value:
-     _id: image-banner
-     title: Image Banner
-     banner_image: 
-     heading:
-     subheading:
-  - label: Text Content
-    icon: description
-    value:
-     _id: image-banner
-     title: Text Content
-     description_html:  
+     
   - label: Video
     icon: play_circle
     value:
@@ -45,7 +49,4 @@ _array_structures:
      vimeo_id:
      embedded:
        - video_path:
-         file_type:  
-      
-
-        
+         file_type:

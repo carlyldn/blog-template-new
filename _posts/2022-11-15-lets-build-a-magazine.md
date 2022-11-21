@@ -13,6 +13,7 @@ page_blocks:
    paragraph: This is a paragraph
    button_url: /
    button_text: Home page
+
  - _id: video
    title: Video
    video_poster:
@@ -21,7 +22,14 @@ page_blocks:
    vimeo_id: 
    embedded:
     - video_path:
-      file_type:     
+      file_type:
+
+ - _id: image-banner
+    title: Text Content
+    description_html:
+
+    
+      
 ---
 
 Let's build a magazine

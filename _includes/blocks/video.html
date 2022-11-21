@@ -2,7 +2,7 @@
 
 <section class="min-h-screen">
     {% if block.video_type == 'youtube' %}
-      <div class="plyr__video-embed relative" id="player">
+      <div class="plyr__video-embed relative" id="player{{ forloop.index }}">
           <iframe
           src="https://www.youtube.com/embed/{{block.youtube_id}}?origin=https://plyr.io&amp;autoplay=1&amp;loop=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
           allowfullscreen
@@ -13,7 +13,7 @@
   
   <!-- Vimeo embed -->
   {% elsif block.video_type == 'vimeo' %}
-      <div class="plyr__video-embed relative" id="player">
+      <div class="plyr__video-embed relative" id="player{{ forloop.index }}">
           <iframe
             src="https://player.vimeo.com/video/{{block.vimeo_id}}?muted=1&amp;autoplay=1&amp;loop=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
             allowfullscreen
@@ -25,7 +25,7 @@
   <!-- HTML5 embed -->
   
   {% elsif block.video_type == 'embedded' %}
-  <video id="player" playsinline controls autoplay muted autobuffer="true" preload="auto" loop data-poster="{{block.video.poster}}">
+  <video id="player{{ forloop.index }}" playsinline controls autoplay muted autobuffer="true" preload="auto" loop data-poster="{{block.video.poster}}">
     {% for item in block.video.embedded %}
   
       <source src="{{item.video_path}}" type="video/{{item.file_type}}" />
@@ -36,3 +36,9 @@
     </video>
     {% endif %}
   </section>
+
+  <!-- Multiple videos on a page -->
+
+  <script defer>
+    const player = new Plyr('#player{{ forloop.index }}');
+  </script>
