@@ -1,0 +1,27 @@
+<section class="grid md:grid-cols-2 min-h-screen">
+
+    {% for item in block.columns %}
+
+    {% if item.type == 'image' %}
+
+    <div>
+        <img src="{{item.image}}" class="object-cover object-center min-h-full">
+    </div>
+
+    {% elsif %}
+
+    <div>
+        {{item.description_html}}
+    </div>
+
+    {% elsif %}
+
+    <div>
+        <p>VIDEO</p>
+    </div>
+
+    {% endif %}
+
+    {% endfor %}
+
+</section>
