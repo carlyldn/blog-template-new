@@ -7,12 +7,6 @@ _select_data:
     autoplay: Autoplay
     loop: Loop 
  section_styles:
-    p-5: Padding Standard
-    p-6: Padding Medium
-    p-10: Padding Large
-    m-5: Margin Standard
-    m-6: Margin Medium
-    m-10: Margin Large
     bg-light: Light Background
     bg-dark: Dark Background
     bg-featured: Featured Background
@@ -30,7 +24,17 @@ _select_data:
  image_alignment:
     items-center: Align to Centre
     justify-center: Justify to Centre  
-
+_inputs:
+ section_spacing:
+  type: select
+  options:
+   values:
+    p-5: Padding Standard
+    p-6: Padding Medium
+    p-10: Padding Large
+    m-5: Margin Standard
+    m-6: Margin Medium
+    m-10: Margin Large
 
 page_blocks: []
 _array_structures:
@@ -41,6 +45,7 @@ _array_structures:
      _id: text-content
      title: Text Content
      section_styles: []
+     section_spacing: []
      inner_styles:  []
      description_html:
 

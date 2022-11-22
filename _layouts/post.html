@@ -2,6 +2,36 @@
 layout: default
 ---
 
+<!-- Social sharing -->
+
+<section class="sticky inset-y-1/2 inline-flex flex-col tracking-widest z-10 bg-black">
+    <div class="text-white p-1 m-2">
+        {% include social-sharing.html %}
+    </div>
+</section>
+
 {% for block in page.page_blocks %}
     {% include /blocks/{{block._id}}.html %}
-{% endfor %}    
+{% endfor %}
+
+
+<section>
+	<h4> Related Posts </h4>
+	<div class="grid grid-cols-3 gap-4">
+
+		{% assign pageCategory = page.categories[0] %}
+		{% assign relevant = site.categories[pageCategory] | where_exp:"post","post.url != page.url" %}
+  		{% for post in relevant limit:3 %}
+
+      		<a href="{{post.url}}">
+        		<div class="bg-cover bg-center min-h-screen" style="background-image:url({{post.image}})"> </div>
+        		<span class="author">by {{post.author}}</span> //
+        		<span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
+        		<h3> {{post.title}} </h3>
+      		</a>
+      		
+  		{% endfor %}
+  		
+	</div>
+
+</section>
