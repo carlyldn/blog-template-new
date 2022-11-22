@@ -152,7 +152,7 @@ _array_structures:
     icon: description
     value:
       _type: text
-      text:
+      description_html:
       column_width: 1    
   - label: video
     icon: play_circle
