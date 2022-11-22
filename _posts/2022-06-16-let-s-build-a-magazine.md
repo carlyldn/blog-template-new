@@ -37,7 +37,7 @@ page_blocks:
   - _id: side-by-side
     title: Side By Side
     section_styles:
-    grid_width: '1'
+    grid_width: '2'
     columns:
       - _type: image
         image: /uploads/cookery-demo-04-12-2019-shooting-hip-196.jpg
