@@ -147,16 +147,16 @@ _array_structures:
     value:
      _type: image
      image:
-     column_width: 1      
+     column_width:
   - label: text
     icon: description
     value:
      _type: text
      description_html:
-     column_width: 1    
+     column_width:
   - label: video
     icon: play_circle
     value:
      _type: video
      video_path:
-     column_width: 1
+     column_width:
