@@ -150,7 +150,7 @@ columns:
     value:
       _type: text
       text:
-   - label: video
+  - label: video
     icon: play_circle
     value:
       _type: video
