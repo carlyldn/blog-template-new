@@ -1,7 +1,7 @@
 <!-- Text content block -->
 
-<section class="{{block.section_spacing}}">
-    <div class="{{block.inner_styles | join: ' ' }}">
+<section class="{{block.section_spacing}} grid grid-cols{{block.column_width}}">
+    <div class="{{block.inner_styles | join: ' ' }} col-span{{block.column_width}}">
       {{block.description_html}}
     </div>
   </section>

@@ -25,6 +25,22 @@ _select_data:
     items-center: Align to Centre
     justify-center: Justify to Centre  
 _inputs:
+ column_width:
+  type: select
+  options:
+   values:
+    1: One Column
+    2: Two Columns
+    3: Three Columns
+    4: Four Columns
+    5: Five Columns
+    6: Six Columns
+    7: Seven Columns
+    8: Eight Columns
+    9: Nine Columns
+    10: Ten Columns
+    11: Eleven Columns       
+    12: Twelve Columns                 
  section_spacing:
   type: select
   options:
