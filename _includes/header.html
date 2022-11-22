@@ -1,11 +1,15 @@
 <header class="p-5">
     <nav class="flex justify-around">
         <a href="/" class="link link-underline link-underline-black">Home</a>
-        <a href="#" class="link link-underline link-underline-black">Travel</a>
-        <a href="#" class="link link-underline link-underline-black">Wellness</a>
-        <a href="#" class="link link-underline link-underline-black">Beauty</a>
-        <a href="#" class="link link-underline link-underline-black">Food</a>
-        <a href="#" class="link link-underline link-underline-black">Lifestyle</a>
-        <a href="/search" class="link link-underline link-underline-black">Search</a>
+        <a href="/" class="link link-underline link-underline-black">Destinations</a>
+        <a href="/" class="link link-underline link-underline-black">Hotels</a>
+        <a href="/" class="link link-underline link-underline-black">Food & Drink</a>
+
+        <!-- This is if the client wants new categories to output into the nav menu automatically. Comment out in config too -->
+        <!-- {% for item in site.cats %}
+        <a href="/cats/{{item.title}}">{{item.title}}</a>
+        {% endfor %} -->
+
+        <a href="/search">Search</a>
     </nav>
 </header>

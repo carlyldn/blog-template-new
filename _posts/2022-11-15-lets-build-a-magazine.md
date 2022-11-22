@@ -35,8 +35,8 @@ page_blocks:
     embedded:
       - video_path:
         file_type:
-  - _id: side-by-side
-    title: Side By Side
+  - _id: complex-grid
+    title: Complex Grid
     section_styles:
     grid_width: '1'
     columns:

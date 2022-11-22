@@ -1,11 +1,16 @@
+collections:
+ posts:
+  output: true
+  permalink: /posts/:slug
+# This allows the client to manually add their own categories and outputs it into the nav menu. These will output into the _cats folder as a markdown file. You can add descriptions in the front matter if needed. Comment out in nav menu if wanted.
+#  cats:
+#   output: true 
+
 _select_data:
  video_types:
   - youtube
   - vimeo
   - embedded
- video_styles:  
-    autoplay: Autoplay
-    loop: Loop 
  section_styles:
     bg-light: Light Background
     bg-dark: Dark Background
@@ -25,38 +30,44 @@ _select_data:
     items-center: Align to Centre
     justify-center: Justify to Centre  
 _inputs:
+# This allows the client to select multiple categories for posts with the Cloudcannon dropdown
+#  cats:
+#   type: multi-select
+#   options:
+#    values: collections.cats
+
  grid_width:
   type: select
   options:
    values:
-    1: One Column
-    2: Two Column
-    3: Three Columns
-    4: Four Columns
-    5: Five Columns
-    6: Six Columns
-    7: Seven Columns
-    8: Eight Columns
-    9: Nine Columns
-    10: Ten Columns
-    11: Eleven Columns
-    12: Twelve Columns
+    1: 1 Column
+    2: 2 Column
+    3: 3 Columns
+    4: 4 Columns
+    5: 5 Columns
+    6: 6 Columns
+    7: 7 Columns
+    8: 8 Columns
+    9: 9 Columns
+    10: 10 Columns
+    11: 11 Columns
+    12: 12 Columns
  column_width:
   type: select
   options:
    values:
-    1: One Column
-    2: Two Columns
-    3: Three Columns
-    4: Four Columns
-    5: Five Columns
-    6: Six Columns
-    7: Seven Columns
-    8: Eight Columns
-    9: Nine Columns
-    10: Ten Columns
-    11: Eleven Columns
-    12: Twelve Columns
+    1: 1 Column
+    2: 2 Columns
+    3: 3 Columns
+    4: 4 Columns
+    5: 5 Columns
+    6: 6 Columns
+    7: 7 Columns
+    8: 8 Columns
+    9: 9 Columns
+    10: 10 Columns
+    11: 11 Columns
+    12: 12 Columns
  section_spacing:
   type: select
   options:
@@ -92,10 +103,10 @@ _array_structures:
      heading:
      subheading:
 
-  - label: Side by Side
+  - label: Complex Grid
     icon: multiple_stop
     value:
-     _id: side-by-side
+     _id: complex-grid
      title: Side By Side
      section_styles:
      grid_width:
