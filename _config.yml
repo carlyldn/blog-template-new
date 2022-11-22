@@ -13,7 +13,7 @@ _select_data:
   - embedded
  section_styles:
     bg-light: Light Background
-    bg-dark: Dark Background
+    bg-black: Dark Background
     bg-featured: Featured Background
     bg-white: White Background
  inner_styles:
