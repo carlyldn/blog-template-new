@@ -59,6 +59,7 @@ _array_structures:
     value:
      _id: text-content
      title: Text Content
+     column_width:
      section_styles:
      section_spacing:
      inner_styles:
