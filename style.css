@@ -19,3 +19,7 @@
 .landscape-wide { padding-bottom: 56%; }
 
 
+#search-input {
+    width: 100%;
+}
+
