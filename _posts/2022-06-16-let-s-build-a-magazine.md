@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Let's build a magazine
+title: New test
 author: dan
 category: food
 date: 2022-06-16 00:00:00
