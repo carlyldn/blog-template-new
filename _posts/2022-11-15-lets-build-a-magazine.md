@@ -33,5 +33,30 @@ page_blocks:
     embedded:
       - video_path:
         file_type:
+  - _id: side-by-side
+    title: Side By Side
+    section_styles:
+    grid_width: '1'
+    columns:
+      - _type: image
+        image: /uploads/cookery-demo-04-12-2019-shooting-hip-196.jpg
+        column_width: '5'
+      - _type: text
+        description_html: >-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum.</p>
+        column_width: '7'
 ---
 Let's build a magazine
