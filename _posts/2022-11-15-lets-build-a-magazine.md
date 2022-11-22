@@ -6,9 +6,6 @@ category: travel
 date: 2022-06-16 00:00:00
 image: https://picsum.photos/id/684/600/400
 page_blocks:
-  - _id: text-content
-    title: Text Content
-    description_html: <p>This is your main body content</p>
   - _id: image-banner
     title: Image Banner
     banner_image: https://picsum.photos/id/684/600/400
@@ -36,10 +33,5 @@ page_blocks:
     embedded:
       - video_path:
         file_type:
-  - _id: text-content
-    title: Text Content
-    section_styles:
-    inner_styles:
-    description_html:
 ---
 Let's build a magazine
