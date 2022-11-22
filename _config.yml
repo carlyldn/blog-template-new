@@ -30,7 +30,7 @@ _inputs:
   options:
    values:
     1: One Column
-    2: Two Columns
+    2: Two Column
     3: Three Columns
     4: Four Columns
     5: Five Columns
@@ -98,7 +98,7 @@ _array_structures:
      _id: side-by-side
      title: Side By Side
      section_styles:
-     column_count:
+     grid_width:
      columns:
 
   - label: Call to Action
