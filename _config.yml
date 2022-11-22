@@ -145,18 +145,18 @@ _array_structures:
   - label: image
     icon: photo_camera
     value:
-      _type: image
-      image:
-      column_width: 1      
+     _type: image
+     image:
+     column_width: 1      
   - label: text
     icon: description
     value:
-      _type: text
-      description_html:
-      column_width: 1    
+     _type: text
+     description_html:
+     column_width: 1    
   - label: video
     icon: play_circle
     value:
-      _type: video
-      video_path:
-      column_width: 1
+     _type: video
+     video_path:
+     column_width: 1
