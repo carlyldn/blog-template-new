@@ -8,17 +8,21 @@ seo:
   featured-image_path:
   hide-from-google: false
 ---
-<h1 class="text-4xl font-bold text-slate-900">Welcome to your homepage!</h1>
 
-
-<section class="grid md:grid-cols-3 gap-4 p-2">
+<section class="grid md:grid-cols-3 gap-4 p-5">
+    <h3 class="col-span-full text-5xl">Latest posts</h3>
     {% for post in site.posts %}
     <div>
         <a href="{{post.url}}">
-            <img src="{{post.image}}">
-            <h4>{{post.category}}</h4>
-            <p>{{post.author}}</p>
+            <img src="{{post.image}}" class="mb-2 object-cover w-full h-[50vh] object-center">
         </a>
+            <h4 class="mb-4 post-category">{{post.category}}</h4>
+        <a href="{{post.url}}">
+            <h4 class="uppercase mb-4 post-title"><strong>{{post.title}}</strong></h4>
+        </a>
+            <p class="mb-4 post-blurb">{{post.blurb}}</p>
+            <!-- <p>{{post.author}}</p> -->
+        <a href="{{post.url}}" class="border-b border-black pb-0.5 inline-block post-button uppercase">Read more</a>
     </div>
     {% endfor %}
 </section> 

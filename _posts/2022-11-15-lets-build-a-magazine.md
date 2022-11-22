@@ -1,10 +1,12 @@
 ---
 layout: post
-title: TEST 1
+title: Let's build a magazine
 author: Isabelle
 category: travel
 date: 2022-06-16 00:00:00
-image: https://picsum.photos/id/684/600/400
+blurb: Want to learn how to build a magazine website? Look no further! All the juicy details this way.
+image: >-
+ https://source.unsplash.com/n27Gn4kC2AM
 page_blocks:
   - _id: image-banner
     title: Image Banner
