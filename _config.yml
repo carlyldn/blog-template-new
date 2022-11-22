@@ -35,7 +35,6 @@ _inputs:
     m-5: Margin Standard
     m-6: Margin Medium
     m-10: Margin Large
-
 page_blocks: []
 _array_structures:
  page_blocks:
@@ -44,9 +43,9 @@ _array_structures:
     value:
      _id: text-content
      title: Text Content
-     section_styles: []
-     section_spacing: []
-     inner_styles:  []
+     section_styles:
+     section_spacing:
+     inner_styles:
      description_html:
 
   - label: Image Banner
