@@ -41,7 +41,7 @@ page_blocks:
     columns:
       - _type: image
         image: /uploads/cookery-demo-04-12-2019-shooting-hip-196.jpg
-        column_width: '5'
+        column_width: '1'
       - _type: text
         description_html: >-
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -58,5 +58,5 @@ page_blocks:
           voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
           sint occaecat cupidatat non proident, sunt in culpa qui officia
           deserunt mollit anim id est laborum.</p>
-        column_width: '7'
+        column_width: '1'
 ---
