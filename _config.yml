@@ -97,6 +97,7 @@ _array_structures:
     value:
      _id: image-text-block
      title: Image & Text Block
+     column_count:
      columns:
 
   - label: Call to Action
@@ -145,13 +146,16 @@ columns:
     value:
       _type: image
       image:
+      column_width: 1      
   - label: text
     icon: description
     value:
       _type: text
       text:
+      column_width: 1    
   - label: video
     icon: play_circle
     value:
       _type: video
       video_path:
+      column_width: 1
