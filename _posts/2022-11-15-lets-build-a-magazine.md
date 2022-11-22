@@ -4,9 +4,10 @@ title: Let's build a magazine
 author: Isabelle
 category: travel
 date: 2022-06-16 00:00:00
-blurb: Want to learn how to build a magazine website? Look no further! All the juicy details this way.
-image: >-
- https://source.unsplash.com/n27Gn4kC2AM
+blurb: >-
+  Want to learn how to build a magazine website? Look no further! All the juicy
+  details this way.
+image: https://source.unsplash.com/n27Gn4kC2AM
 page_blocks:
   - _id: image-banner
     title: Image Banner
@@ -59,6 +60,27 @@ page_blocks:
           voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
           sint occaecat cupidatat non proident, sunt in culpa qui officia
           deserunt mollit anim id est laborum.</p>
+        column_width: '7'
+  - _id: side-by-side
+    title: Side By Side
+    section_styles:
+    grid_width: '1'
+    columns:
+      - _type: image
+        image: /uploads/screenshot-2022-11-14-140039.png
+        column_width: '5'
+      - _type: text
+        description_html: >-
+          <p>Traveling around Costa Rica will offer you a wealth of wonderful
+          sites, interesting people and &ndash; perhaps most important of all
+          &ndash; amazing coastlines.</p><p>At least, this is the most important
+          thing if you are a watersport fanatic. From north to south, east to
+          west, Costa Rica has some of the most varied, beautiful coastlines
+          anywhere in the world, making it perfect for anyone who enjoys both
+          watersports and traveling alike.</p><p>Whatsmore, you can choose those
+          spots based on a specific sport that you want to try out. With this in
+          mind, here are five of the best spots for five of the most popular
+          watersports to indulge in:</p>
         column_width: '7'
 ---
 Let's build a magazine
