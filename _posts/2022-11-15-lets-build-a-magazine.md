@@ -65,6 +65,7 @@ page_blocks:
     title: Text Content
     column_width: '1'
     section_styles:
+      - bg-dark
     section_spacing: p-10
     inner_styles:
       - p-10
