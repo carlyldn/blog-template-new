@@ -39,23 +39,45 @@ page_blocks:
   - _id: complex-grid
     title: Complex Grid
     section_styles:
-    grid_width: '2'
+    grid_width: '1'
     columns:
       - _type: image
-        image: /uploads/screenshot-2022-11-14-140039.png
-        column_width: '1'
+        image: /uploads/cookery-demo-04-12-2019-shooting-hip-196.jpg
+        column_width: '5'
       - _type: text
         description_html: >-
-          <p>Traveling around Costa Rica will offer you a wealth of wonderful
-          sites, interesting people and &ndash; perhaps most important of all
-          &ndash; amazing coastlines.</p><p>At least, this is the most important
-          thing if you are a watersport fanatic. From north to south, east to
-          west, Costa Rica has some of the most varied, beautiful coastlines
-          anywhere in the world, making it perfect for anyone who enjoys both
-          watersports and traveling alike.</p><p>Whatsmore, you can choose those
-          spots based on a specific sport that you want to try out. With this in
-          mind, here are five of the best spots for five of the most popular
-          watersports to indulge in:</p>
-        column_width: '1'
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia
+          deserunt mollit anim id est laborum.</p>
+        column_width: '7'
+  - _id: text-content
+    title: Text Content
+    column_width: '1'
+    section_styles:
+    section_spacing: p-10
+    inner_styles:
+      - p-10
+    description_html: >-
+      <p>Traveling around Costa Rica will offer you a wealth of wonderful sites,
+      interesting people and &ndash; perhaps most important of all &ndash;
+      amazing coastlines.</p><p>At least, this is the most important thing if
+      you are a watersport fanatic. From north to south, east to west, Costa
+      Rica has some of the most varied, beautiful coastlines anywhere in the
+      world, making it perfect for anyone who enjoys both watersports and
+      traveling alike.</p><p>Whatsmore, you can choose those spots based on a
+      specific sport that you want to try out. With this in mind, here are five
+      of the best spots for five of the most popular watersports to indulge
+      in:</p>
 ---
 Let's build a magazine
