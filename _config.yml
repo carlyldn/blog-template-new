@@ -92,11 +92,12 @@ _array_structures:
      heading:
      subheading:
 
-  - label: Image & Text Block
-    icon: photo_camera
+  - label: Side by Side
+    icon: multiple_stop
     value:
-     _id: image-text-block
-     title: Image & Text Block
+     _id: side-by-side
+     title: Side By Side
+     section_styles:
      column_count:
      columns:
 
@@ -140,7 +141,7 @@ _array_structures:
        - video_path:
          file_type:
 
-columns:
+ columns:
   - label: image
     icon: photo_camera
     value:
