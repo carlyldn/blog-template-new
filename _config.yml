@@ -39,8 +39,8 @@ _inputs:
     8: Eight Columns
     9: Nine Columns
     10: Ten Columns
-    11: Eleven Columns       
-    12: Twelve Columns                 
+    11: Eleven Columns
+    12: Twelve Columns
  section_spacing:
   type: select
   options:
