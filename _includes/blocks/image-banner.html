@@ -1,7 +1,14 @@
 <!-- Image banner -->
-<section class="{{block.section_styles | join: ' ' }} min-h-screen bg-cover bg-center text-white block">
-    <div class="flex items-center justify-center" style="background-image: url('{{block.banner_image}}')">
+<section class="{{block.section_styles | join: ' ' }} min-h-screen bg-cover bg-center text-white flex items-center justify-center">
+    <div class="block bg-cover bg-center w-full h-screen" style="background-image: url('{{block.banner_image}}')">
         <h2>{{block.heading}}</h2>
         <h4>{{block.subheading}}</h4>
     </div>
 </section>
+
+<section class="p-5p bg-cover {{block.background-position}} {{block.banner-height}} {{block.text-position}} flex justify-center" style="background-image: url('{{block.banner_image}}')">
+    <div> 
+        <h2> {{block.heading}} </h2> 
+        <h4> {{block.subheading}} </h4> 
+    </div> 
+</section> 
