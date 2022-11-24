@@ -107,7 +107,7 @@ _array_structures:
     icon: multiple_stop
     value:
      _id: complex-grid
-     title: Side By Side
+     title: Complex Grid
      section_styles:
      grid_width:
      columns:

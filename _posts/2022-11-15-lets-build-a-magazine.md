@@ -7,7 +7,7 @@ date: 2022-06-16 00:00:00
 blurb: >-
   Want to learn how to build a magazine website? Look no further! All the juicy
   details this way.
-image: https://source.unsplash.com/n27Gn4kC2AM
+featured_image: https://source.unsplash.com/n27Gn4kC2AM
 page_blocks:
   - _id: image-banner
     title: Image Banner
@@ -83,7 +83,7 @@ page_blocks:
       mostly Brits on my cruise although a number of Americans and Asians had
       flown in especially.</p>
   - _id: complex-grid
-    title: Side By Side
+    title: Complex Grid
     section_styles:
     grid_width: '2'
     columns:
@@ -95,5 +95,3 @@ page_blocks:
         column_width: '1'
 ---
 Let's build a magazine
-
-Hey 

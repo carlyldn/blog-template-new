@@ -2,11 +2,21 @@
 layout: default
 ---
 
-<section class="grid grid-cols-1">
+<section class="grid grid-cols-1 mt-16">
 	<div class="col-span-full text-center">
 		<h2 class="text-3xl">{{page.title}}</h2>
-		<p>{{page.date}}</p>
-		<p>{{page.author}}</p>
+		<p>{% assign day = page.date | date: "%-d"  %}
+			{% case day %}
+			  {% when '1' or '21' or '31' %}{{ day }}st
+			  {% when '2' or '22' %}{{ day }}nd
+			  {% when '3' or '23' %}{{ day }}rd
+			  {% else %}{{ day }}th
+			{% endcase %}
+			{{ page.date | date: "of %B %Y" }} | By {{page.author}}</p>
+		<p>{{page.blurb}}</p>
+	</div>
+	<div class="col-span-full">
+		<img src="{{page.featured_image}}" class="w-full h-48">
 	</div>
 </section>
 
